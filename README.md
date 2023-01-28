@@ -13,11 +13,11 @@ Do you ever feel like your friends listen to really good music that you haven't 
 
 
 Key Features:
--Easy-to-use interface
--Secure login and account identification
--Quick web connection and sharing from music platform of your choice
--Storage of user data (info, friends, liked songs)
--Simple app style presentation
--Ability to hear song and read song info
--Scrolling through daily song post from friends
--Ability to open song in music app
+1. Easy-to-use interface
+2. Secure login and account identification
+3. Quick web connection and sharing from music platform of your choice
+4. Storage of user data (info, friends, liked songs)
+5. Simple app style presentation
+6. Ability to hear song and read song info
+7. Scrolling through daily song post from friends
+8. Ability to open and save song in music app
