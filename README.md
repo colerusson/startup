@@ -21,3 +21,9 @@ Key Features:
 6. Ability to hear song and read song info
 7. Scrolling through daily song post from friends
 8. Ability to open and save song in music app
+
+
+Class Notes
+1. CSS is very diverse and you can handle it in many ways, including linking to a CSS file, or writing the style directly into the HTML
+2. You can even create stuff using just CSS, and almost no HTML
+3. Remember to read up on CSS selectors
