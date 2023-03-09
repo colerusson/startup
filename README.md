@@ -93,7 +93,7 @@ Kahoot/Review Notes
 11. Valid JavaScript object - { n:1 }
 12. Invalid: { n=1 }; { "n"=1}; { "n"="1" }
 13. DOM textContent property - sets the child text for an element
-14. Valid hyperlink HTML - <a href='https://c.com'>x</a>
+14. Valid hyperlink HTML - a href='https://c.com'>x
 15. Turn only a certain text blue - div.header { color: blue; }
 16. Valid JSON - {"x":3}
 17. Invalid: {'x':3}; {"x":undefined}; {x:3}
