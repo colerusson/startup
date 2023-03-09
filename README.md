@@ -62,18 +62,17 @@ JavaScript
 8. JavaScript can be used to manipulate HTML and CSS, such as changing the content of an HTML element or updating the styles of an element.
 9. JavaScript frameworks like React and Angular can be used to create more complex web applications.
 10. JavaScript also includes several APIs for working with external data sources and services, such as the Fetch API for making HTTP requests and the Geolocation API for working with location data.
-Built-In Functions
-1. alert() function: The alert() function is used to display a message in an alert box. 
+11. alert() function: The alert() function is used to display a message in an alert box. 
   a. alert("Hello, world!");
-2. prompt() function: The prompt() function is used to display a message in a dialog box that prompts the user to enter some text.
+12. prompt() function: The prompt() function is used to display a message in a dialog box that prompts the user to enter some text.
   a. var name = prompt("Please enter your name:");
-3. console.log() function: The console.log() function is used to output messages to the console for debugging purposes. 
+13. console.log() function: The console.log() function is used to output messages to the console for debugging purposes. 
   a. console.log("Hello, world!");
-4. push() method: The push() method is used to add one or more elements to the end of an array. 
+14. push() method: The push() method is used to add one or more elements to the end of an array. 
   a. var fruits = ["apple", "banana", "orange"];
      fruits.push("grape", "kiwi");
      console.log(fruits);
-5. slice() method: The slice() method is used to extract a section of an array and return a new array containing the extracted elements.
+15. slice() method: The slice() method is used to extract a section of an array and return a new array containing the extracted elements.
   a. var numbers = [1, 2, 3, 4, 5];
      var slice1 = numbers.slice(1, 3);
      var slice2 = numbers.slice(3);
