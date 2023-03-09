@@ -41,6 +41,15 @@ HTML
 10. HTML5 is the current version of HTML and includes new features and elements, such as semantic tags (<header>, <footer>, <article>, etc.), the <video> and <audio> elements, and support for responsive design.
   
 CSS
+1. CSS stands for "Cascading Style Sheets" and is used to style web pages.
+2. CSS uses selectors to target HTML elements and apply styles to them. Examples of selectors include element selectors (p, h1, ul, etc.), class selectors (.example), and ID selectors (#example).
+3. CSS styles are defined in rules, which consist of a selector and one or more declarations. Declarations consist of a property and a value, separated by a colon. 
+4. CSS has several types of properties, including font properties (font-family, font-size, etc.), color properties (color, background-color, etc.), layout properties (width, height, margin, padding, etc.), and many more.
+5. CSS also includes several types of units for specifying values, such as pixels (px), ems (em), and percentages (%).
+6. CSS can be applied to HTML documents in several ways, including via external style sheets, internal style sheets, or inline styles.
+7. CSS also includes several advanced features, such as media queries for targeting specific device types or screen sizes, animations and transitions for creating dynamic effects, and the use of preprocessors like Sass or Less for more powerful styling capabilities.
+8. CSS frameworks like Bootstrap and Foundation can be used to speed up the development process by providing pre-built styles and layout components.
+9. CSS is constantly evolving, with new features and capabilities being added in CSS3 and CSS4.
   
 JavaScript
 
