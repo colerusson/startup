@@ -28,7 +28,22 @@ Class Notes
 2. You can even create stuff using just CSS, and almost no HTML
 3. Remember to read up on CSS selectors
 
-Midterm Lecture Notes
+HTML
+1. HTML stands for "HyperText Markup Language" and is used to create web pages.
+2. HTML is made up of elements, which are defined by tags enclosed in angle brackets. Examples of tags include <html>, <head>, and <body>.
+3. The basic structure of an HTML document includes an opening and closing <html> tag, which contains an opening and closing <head> tag and an opening and closing <body> tag.
+4. The <head> tag contains metadata about the document, such as the page title, links to external stylesheets or scripts, and other information that is not displayed on the page.
+5. The <body> tag contains the content of the page, including text, images, and other media.
+6. HTML has several types of elements, including block-level elements and inline elements. Block-level elements start on a new line and take up the full width of their container, while inline elements do not start on a new line and only take up as much width as necessary.
+7. Some common HTML elements include headings (<h1>, <h2>, <h3>, etc.), paragraphs (<p>), lists (<ul>, <ol>, <li>), links (<a>), images (<img>), and tables (<table>, <tr>, <td>).
+8. HTML has several attributes that can be added to elements to provide additional information or functionality. Examples of attributes include class, id, href, src, alt, and style.
+9. HTML also allows for the use of special characters, such as copyright symbols (&copy;), em dashes (&mdash;), and en dashes (&ndash;).
+10. HTML5 is the current version of HTML and includes new features and elements, such as semantic tags (<header>, <footer>, <article>, etc.), the <video> and <audio> elements, and support for responsive design.
+  
+CSS
+  
+JavaScript
+
 
 Kahoot Notes
 1. @import url('https://fonts.googleapis.com/css?family=Quicksand'); - you can use this CSS to load fonts from Google
