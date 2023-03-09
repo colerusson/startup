@@ -83,7 +83,7 @@ Kahoot/Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
 3. console.log(f(n)) can call a function and output it
-4. In HTML <div> creates a division element
+4. In HTML div tag creates a division element
 5. CSS box model order starting from outside going in - margin, border, padding, content
 6. HTML tag for an unordered list - ul
 7. Invalid JavaScript function - function f(x) = {}
