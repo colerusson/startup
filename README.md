@@ -44,9 +44,8 @@ CSS
   
 JavaScript
 
-
 Kahoot/Review Notes
-1. @import url('https://fonts.googleapis.com/css?family=Quicksand'); - you can use this CSS to load fonts from Google
+1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
 3. console.log(f(n)) can call a function and output it
 4. In HTML <div> creates a division element
