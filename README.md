@@ -45,7 +45,7 @@ CSS
 JavaScript
 
 
-Kahoot Notes
+Kahoot/Review Notes
 1. @import url('https://fonts.googleapis.com/css?family=Quicksand'); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
 3. console.log(f(n)) can call a function and output it
@@ -53,28 +53,16 @@ Kahoot Notes
 5. CSS box model order starting from outside going in - margin, border, padding, content
 6. HTML tag for an unordered list - <ul>
 7. Invalid JavaScript function - function f(x) = {}
-8. Valid JavaScript functions
-  const f = (x) => {}
-  function f(x) {}
-  const f = function(x) {}
-9. Valid ways to include JavaScript in HTML
-  <script>1+1</script>
-  <script src='main.js' />
-  <div onclick='1+1' />
- 10. Ivalid - <javascript>1+1</javascript>
- 11. Valid JavaScript object - { n:1 }
- 12. Invalid 
-  { n=1 }
-  { "n"=1}
-  { "n"="1" }
+8. Valid JavaScript functions: const f = (x) => {}; function f(x) {}; const f = function(x) {}
+9. Valid ways to include JavaScript in HTML: <script>1+1</script>; <script src='main.js' />; <div onclick='1+1' />
+10. Ivalid - <javascript>1+1</javascript>
+11. Valid JavaScript object - { n:1 }
+12. Invalid: { n=1 }; { "n"=1}; { "n"="1" }
 13. DOM textContent property - sets the child text for an element
 14. Valid hyperlink HTML - <a href='https://c.com'>x</a>
 15. Turn only a certain text blue - div.header { color: blue; }
 16. Valid JSON - {"x":3}
-17. Invalid
-  {'x':3}
-  {"x":undefined}
-  {x:3}
+17. Invalid: {'x':3}; {"x":undefined}; {x:3}
 18. Console comman to make a script executable - chmod +x deploy.sh
 19. DNS subdomain example - c260.cs.byu.edu
 20. To point to another DNS record, use this DNS record type - CNAME
