@@ -50,7 +50,7 @@ Kahoot/Review Notes
 3. console.log(f(n)) can call a function and output it
 4. In HTML <div> creates a division element
 5. CSS box model order starting from outside going in - margin, border, padding, content
-6. HTML tag for an unordered list - <ul>
+6. HTML tag for an unordered list - ul
 7. Invalid JavaScript function - function f(x) = {}
 8. Valid JavaScript functions: const f = (x) => {}; function f(x) {}; const f = function(x) {}
 9. Valid ways to include JavaScript in HTML: <script>1+1</script>; <script src='main.js' />; <div onclick='1+1' />
