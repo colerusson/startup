@@ -35,7 +35,7 @@ HTML
 4. The <head> tag contains metadata about the document, such as the page title, links to external stylesheets or scripts, and other information that is not displayed on the page.
 5. The <body> tag contains the content of the page, including text, images, and other media.
 6. HTML has several types of elements, including block-level elements and inline elements. Block-level elements start on a new line and take up the full width of their container, while inline elements do not start on a new line and only take up as much width as necessary.
-7. Some common HTML elements include headings (<h1>, <h2>, <h3>, etc.), paragraphs (<p>), lists (<ul>, <ol>, <li>), links (<a>), images (<img>), and tables (<table>, <tr>, <td>).
+7. Some common HTML elements include headings, paragraphs, lists, links, images, and tables.
 8. HTML has several attributes that can be added to elements to provide additional information or functionality. Examples of attributes include class, id, href, src, alt, and style.
 9. HTML also allows for the use of special characters, such as copyright symbols (&copy;), em dashes (&mdash;), and en dashes (&ndash;).
 10. HTML5 is the current version of HTML and includes new features and elements, such as semantic tags (<header>, <footer>, <article>, etc.), the <video> and <audio> elements, and support for responsive design.
