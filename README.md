@@ -27,3 +27,39 @@ Class Notes
 1. CSS is very diverse and you can handle it in many ways, including linking to a CSS file, or writing the style directly into the HTML
 2. You can even create stuff using just CSS, and almost no HTML
 3. Remember to read up on CSS selectors
+
+Midterm Lecture Notes
+
+Kahoot Notes
+@import url('https://fonts.googleapis.com/css?family=Quicksand'); - you can use this CSS to load fonts from Google
+CSS property padding - puts space around the content of selected elements
+console.log(f(n)) can call a function and output it
+In HTML <div> creates a division element
+CSS box model order starting from outside going in - margin, border, padding, content
+HTML tag for an unordered list - <ul>
+Invalid JavaScript function - function f(x) = {}
+Valid JavaScript functions
+  const f = (x) => {}
+  function f(x) {}
+  const f = function(x) {}
+Valid ways to include JavaScript in HTML
+  <script>1+1</script>
+  <script src='main.js' />
+  <div onclick='1+1' />
+ Ivalid - <javascript>1+1</javascript>
+ Valid JavaScript object - { n:1 }
+ Invalid 
+  { n=1 }
+  { "n"=1}
+  { "n"="1" }
+DOM textContent property - sets the child text for an element
+Valid hyperlink HTML - <a href='https://c.com'>x</a>
+Turn only a certain text blue - div.header { color: blue; }
+Valid JSON - {"x":3}
+Invalid
+  {'x':3}
+  {"x":undefined}
+  {x:3}
+Console comman to make a script executable - chmod +x deploy.sh
+DNS subdomain example - c260.cs.byu.edu
+To point to another DNS record, use this DNS record type - CNAME
