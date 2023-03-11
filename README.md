@@ -79,6 +79,18 @@ JavaScript
      console.log(slice1); // Output: [2, 3]
      console.log(slice2); // Output: [4, 5]
 
+React
+1. React is a JavaScript library for building user interfaces.
+2. React uses a component-based architecture to create reusable UI elements.
+3. React components can have state and props, which allow them to respond to user interactions and update their appearance accordingly.
+4. React uses a virtual DOM to efficiently update the UI without the need for full page reloads.
+5. React supports server-side rendering, which can improve page load times and SEO.
+6. React can be used with other libraries and frameworks, such as Redux for state management or React Native for building mobile apps.
+7. React provides a set of lifecycle methods for components, which allow developers to hook into various stages of a component's existence.
+8. React supports a declarative programming model, where developers describe what they want the UI to look like and React takes care of the underlying implementation details.
+9. React provides tools for testing components, including a test renderer and utilities for mocking and simulating user interactions.
+10. React is maintained by Facebook and has a large and active community of developers, which means there are many resources and tools available for learning and using the library.
+
 Kahoot/Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
