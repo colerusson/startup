@@ -1,15 +1,23 @@
-<script>
-  const chatMessages = document.getElementById("chat-messages");
-  const messageInput = document.getElementById("message");
+const messageInput = document.getElementById("message");
+const chatMessages = document.querySelector(".chat-messages");
 
-  function sendMessage() {
-    const message = messageInput.value.trim();
-    if (message !== "") {
-      const newMessage = document.createElement("div");
-      newMessage.innerText = message;
-      chatMessages.appendChild(newMessage);
-      messageInput.value = "";
-      messageInput.focus();
-    }
+function sendMessage() {
+  const message = messageInput.value;
+  if (message.trim() === "") {
+    return;
   }
-</script>
+  const messageElement = document.createElement("div");
+  messageElement.classList.add("message");
+  messageElement.innerText = message;
+  chatMessages.appendChild(messageElement);
+  messageInput.value = "";
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    sendMessage();
+  }
+});
+
+const sendButton = document.querySelector(".chat-input button");
+sendButton.addEventListener("click", sendMessage);
