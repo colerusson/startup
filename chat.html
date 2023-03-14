@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChatRoom</title>
     <link rel="icon" href="favicon.ico" />
-
     <link rel="stylesheet" href="main.css" />
-
     <!-- Include bootstrap CSS framework -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -38,14 +36,16 @@
         User:
         <span class="player-name">User Name</span>
       </div>
-      <!-- add a chat room -->
-        <div class="chat-room">
-            <div class="chat-messages"></div>
-            <div class="chat-input">
-              <textarea id="message" placeholder="Type your message here"></textarea>
-              <button type="submit" class="btn btn-primary" onclick="sendMessage()">Send</button>
-            </div>
+      <div class="row chat-room">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="message" placeholder="Type your message here" />
+          </div>
         </div>
+        <div class="col-sm-6">
+          <div class="chat-messages"></div>
+        </div>
+      </div>
     </main>
 
     <footer class="bg-dark text-dark text-muted">
