@@ -96,6 +96,18 @@ React
 9. React provides tools for testing components, including a test renderer and utilities for mocking and simulating user interactions.
 10. React is maintained by Facebook and has a large and active community of developers, which means there are many resources and tools available for learning and using the library.
 
+Node.js
+1. Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side applications.
+2. It is built on top of the V8 JavaScript engine from Google Chrome and provides an event-driven, non-blocking I/O model that makes it efficient and lightweight.
+3. Node.js uses the CommonJS module system, which allows developers to easily share and reuse code.
+4. It provides a set of built-in modules, including the HTTP module for building web servers, the File System module for working with the file system, and the Path module for working with file paths.
+5. Node.js also has a large ecosystem of third-party modules that can be easily installed using the Node Package Manager (NPM).
+6. It is commonly used for building scalable, high-performance web applications, real-time chat applications, and APIs.
+7. Node.js is known for its ability to handle a large number of concurrent connections, making it a popular choice for building applications that require high throughput.
+8. One of the key benefits of using Node.js is its ability to easily integrate with other technologies, such as databases, front-end frameworks, and cloud services.
+9. Node.js supports both synchronous and asynchronous programming models, with asynchronous programming being the recommended approach for building scalable applications.
+10. Node.js is not suitable for CPU-intensive tasks, as it is designed to handle I/O-bound tasks that involve a lot of network and file system interactions.
+
 Kahoot/Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
