@@ -107,6 +107,18 @@ Node.js
 8. One of the key benefits of using Node.js is its ability to easily integrate with other technologies, such as databases, front-end frameworks, and cloud services.
 9. Node.js supports both synchronous and asynchronous programming models, with asynchronous programming being the recommended approach for building scalable applications.
 10. Node.js is not suitable for CPU-intensive tasks, as it is designed to handle I/O-bound tasks that involve a lot of network and file system interactions.
+  
+MongoDB
+1. MongoDB is a document-oriented NoSQL database that provides high performance, scalability, and flexibility for modern applications.
+2. It stores data in collections, which are made up of documents that can have different structures and fields.
+3. MongoDB uses a flexible schema, allowing developers to easily add new fields or modify the structure of documents as needed.
+4. It supports a wide range of data types, including arrays, objects, and embedded documents.
+5. MongoDB provides a powerful query language that allows developers to perform complex queries on their data using a variety of operators and functions.
+6. It also supports indexing, which allows for faster query performance and can improve overall database performance.
+7. MongoDB provides high availability through its built-in replication feature, which automatically synchronizes data across multiple nodes in a cluster.
+8. It also provides horizontal scalability through its sharding feature, which allows for data to be distributed across multiple nodes in a cluster.
+9. MongoDB has a rich ecosystem of tools and libraries, including drivers for many programming languages, as well as management and monitoring tools.
+10. Finally, MongoDB has a strong community of users and contributors, making it a popular choice for modern web applications.
 
 Kahoot/Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
