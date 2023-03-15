@@ -7,10 +7,15 @@ This is going to be a merge conflictThis is another addition to the README from 
 1. Here is the start of some of my notes 
 2. I thought it was interesting and cool how you can merge git conflicts or just accept one of them so quickly and easily
 
-
 Startup Elevator Pitch
 Do you ever feel like your friends listen to really good music that you haven't heard before? Do you ever feel like you found a new, unique song after perusing spotify or apple music in the middle of the night, and now you want to share it with everyone? MusiConnect is an anti-social, social media platform that allows you to share one song per day so that all of your friends can see and listen to it, leading to quick and easy music sharing. All you do is share one song you liked from the day, and you can quickly scroll through and hear bits from other songs that your friends share.
 ![Start Up Image](https://user-images.githubusercontent.com/106703710/215239031-e7e3a7ef-22fc-413c-a13f-0de3fa188add.jpeg)
+
+UPDATED STARTUP:
+I got a little ahead of myself, my time, and my current skill level and was too ambitious with my startup idea. I am going to leave my idea and image here because hopefully one day I'll get around to doing it.
+Startup Idea for Project:
+Basic chat boxes, where the user can login and type whatever they want in one box, and it shows up in another box that grows with size as the text grows.
+
 
 Key Features:
 1. Easy-to-use interface
