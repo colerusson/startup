@@ -29,9 +29,14 @@ Key Features:
 
 
 Class Notes
-1. CSS is very diverse and you can handle it in many ways, including linking to a CSS file, or writing the style directly into the HTML
-2. You can even create stuff using just CSS, and almost no HTML
-3. Remember to read up on CSS selectors
+
+Converting to React
+1. Understand the differences between web development and React: React is a JavaScript library for building user interfaces while web development involves a variety of technologies including HTML, CSS, and JavaScript. You'll need to understand how React works and its basic concepts such as components, state, and props.
+2. Break down the web file into components: One of the key features of React is the ability to break down the user interface into smaller, reusable components. You should analyze the web file and identify the different parts of the interface that can be turned into components.
+3. Use JSX to define components: JSX is a syntax extension for JavaScript that allows you to write HTML-like syntax within your JavaScript code. You can use JSX to define your React components and their properties.
+4. Manage state and props: React components have a concept of state and props. State refers to data that changes over time within a component while props are properties that are passed down to a component from its parent. You'll need to manage state and props within your React components to ensure they function as expected.
+5. Use React libraries and tools: There are many React libraries and tools available that can help you convert your web files to React more easily. For example, you can use React Router to handle routing within your application, or use a CSS-in-JS library like Styled Components to manage your CSS styles.
+6. Test your components: Finally, it's important to test your React components thoroughly to ensure they work as expected. You can use tools like Jest and Enzyme to create automated tests for your React components.
 
 HTML
 1. HTML stands for "HyperText Markup Language" and is used to create web pages.
