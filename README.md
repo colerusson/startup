@@ -143,7 +143,19 @@ MongoDB
 9. MongoDB has a rich ecosystem of tools and libraries, including drivers for many programming languages, as well as management and monitoring tools.
 10. Finally, MongoDB has a strong community of users and contributors, making it a popular choice for modern web applications.
 
-Kahoot/Review Notes
+Web Sockets
+1. Web Sockets is a protocol that provides a bi-directional, full-duplex communication channel over a single TCP connection between a client and a server.
+2. The primary advantage of Web Sockets is that it allows real-time communication between the client and server, which means that data can be sent and received instantly without the need for repeated HTTP requests.
+3. Web Sockets are initiated with a handshake between the client and server, after which they can exchange data in real-time using the same connection.
+4. Web Sockets are designed to work over the same ports as HTTP and HTTPS (80 and 443 respectively), which makes them compatible with existing web infrastructure.
+5. Web Sockets use the WebSocket API, which is available in modern web browsers and can also be used on the server-side using various programming languages.
+6. Web Sockets can be used to implement a wide range of real-time applications such as chat applications, multiplayer games, and stock tickers.
+7. The WebSocket protocol defines a framing mechanism that allows data to be sent in messages, which can be binary or text.
+8. Web Sockets support a variety of different message types including text messages, binary messages, and ping/pong messages for testing connectivity.
+9. Web Sockets also support sub-protocols, which are additional protocols that can be layered on top of the WebSocket protocol to provide additional functionality.
+10. Web Sockets can be used to improve the performance and user experience of web applications that require real-time communication, and are widely used in modern web development.
+
+Midterm Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
 3. console.log(f(n)) can call a function and output it
