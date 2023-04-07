@@ -7,10 +7,15 @@ This is going to be a merge conflictThis is another addition to the README from 
 1. Here is the start of some of my notes 
 2. I thought it was interesting and cool how you can merge git conflicts or just accept one of them so quickly and easily
 
-
 Startup Elevator Pitch
 Do you ever feel like your friends listen to really good music that you haven't heard before? Do you ever feel like you found a new, unique song after perusing spotify or apple music in the middle of the night, and now you want to share it with everyone? MusiConnect is an anti-social, social media platform that allows you to share one song per day so that all of your friends can see and listen to it, leading to quick and easy music sharing. All you do is share one song you liked from the day, and you can quickly scroll through and hear bits from other songs that your friends share.
 ![Start Up Image](https://user-images.githubusercontent.com/106703710/215239031-e7e3a7ef-22fc-413c-a13f-0de3fa188add.jpeg)
+
+UPDATED STARTUP:
+I got a little ahead of myself, my time, and my current skill level and was too ambitious with my startup idea. I am going to leave my idea and image here because hopefully one day I'll get around to doing it.
+Startup Idea for Project:
+Basic chat boxes, where the user can login and type whatever they want in one box, and it shows up in another box that grows with size as the text grows.
+
 
 Key Features:
 1. Easy-to-use interface
@@ -24,9 +29,32 @@ Key Features:
 
 
 Class Notes
-1. CSS is very diverse and you can handle it in many ways, including linking to a CSS file, or writing the style directly into the HTML
-2. You can even create stuff using just CSS, and almost no HTML
-3. Remember to read up on CSS selectors
+
+Converting to React
+1. Understand the differences between web development and React: React is a JavaScript library for building user interfaces while web development involves a variety of technologies including HTML, CSS, and JavaScript. You'll need to understand how React works and its basic concepts such as components, state, and props.
+2. Break down the web file into components: One of the key features of React is the ability to break down the user interface into smaller, reusable components. You should analyze the web file and identify the different parts of the interface that can be turned into components.
+3. Use JSX to define components: JSX is a syntax extension for JavaScript that allows you to write HTML-like syntax within your JavaScript code. You can use JSX to define your React components and their properties.
+4. Manage state and props: React components have a concept of state and props. State refers to data that changes over time within a component while props are properties that are passed down to a component from its parent. You'll need to manage state and props within your React components to ensure they function as expected.
+5. Use React libraries and tools: There are many React libraries and tools available that can help you convert your web files to React more easily. For example, you can use React Router to handle routing within your application, or use a CSS-in-JS library like Styled Components to manage your CSS styles.
+6. Test your components: Finally, it's important to test your React components thoroughly to ensure they work as expected. You can use tools like Jest and Enzyme to create automated tests for your React components.
+
+Express
+1. Express is a popular, open-source web application framework for Node.js that allows you to easily build web applications and APIs.
+2. The core features of Express include:
+  Routing: Express provides a simple and flexible way to define routes for handling HTTP requests.
+  Middleware: Express supports middleware functions that can be used to modify requests and responses, handle errors, and perform other common tasks.
+  Template engines: Express allows you to use template engines such as EJS and Handlebars to generate dynamic HTML pages.
+  Error handling: Express provides a built-in error handling mechanism that allows you to handle errors gracefully.
+3. To create a basic Express application, you can follow these steps:
+  Install the Express module using npm.
+  Require the Express module in your Node.js application.
+  Create an instance of the Express application by calling the express() function.
+  Define a route using the app.get() method.
+  Start the server using the app.listen() method.
+4. Middleware functions are functions that can be used to modify requests and responses in an Express application. Middleware can be used to perform tasks such as logging, authentication, and error handling.
+5. There are two types of middleware in Express: application-level middleware and router-level middleware. Application-level middleware is used to modify requests and responses for all routes in an application, while router-level middleware is used to modify requests and responses for specific routes.
+6. Express provides a built-in error handling mechanism that allows you to handle errors gracefully. You can define error-handling middleware functions that take four arguments (err, req, res, next) and use the next() function to pass the error to the next error-handling middleware function.
+7. Express allows you to use template engines such as EJS and Handlebars to generate dynamic HTML pages. To use a template engine, you need to install the engine using npm and set it as the view engine in your Express application using the app.set() method.
 
 HTML
 1. HTML stands for "HyperText Markup Language" and is used to create web pages.
@@ -91,7 +119,43 @@ React
 9. React provides tools for testing components, including a test renderer and utilities for mocking and simulating user interactions.
 10. React is maintained by Facebook and has a large and active community of developers, which means there are many resources and tools available for learning and using the library.
 
-Kahoot/Review Notes
+Node.js
+1. Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side applications.
+2. It is built on top of the V8 JavaScript engine from Google Chrome and provides an event-driven, non-blocking I/O model that makes it efficient and lightweight.
+3. Node.js uses the CommonJS module system, which allows developers to easily share and reuse code.
+4. It provides a set of built-in modules, including the HTTP module for building web servers, the File System module for working with the file system, and the Path module for working with file paths.
+5. Node.js also has a large ecosystem of third-party modules that can be easily installed using the Node Package Manager (NPM).
+6. It is commonly used for building scalable, high-performance web applications, real-time chat applications, and APIs.
+7. Node.js is known for its ability to handle a large number of concurrent connections, making it a popular choice for building applications that require high throughput.
+8. One of the key benefits of using Node.js is its ability to easily integrate with other technologies, such as databases, front-end frameworks, and cloud services.
+9. Node.js supports both synchronous and asynchronous programming models, with asynchronous programming being the recommended approach for building scalable applications.
+10. Node.js is not suitable for CPU-intensive tasks, as it is designed to handle I/O-bound tasks that involve a lot of network and file system interactions.
+  
+MongoDB
+1. MongoDB is a document-oriented NoSQL database that provides high performance, scalability, and flexibility for modern applications.
+2. It stores data in collections, which are made up of documents that can have different structures and fields.
+3. MongoDB uses a flexible schema, allowing developers to easily add new fields or modify the structure of documents as needed.
+4. It supports a wide range of data types, including arrays, objects, and embedded documents.
+5. MongoDB provides a powerful query language that allows developers to perform complex queries on their data using a variety of operators and functions.
+6. It also supports indexing, which allows for faster query performance and can improve overall database performance.
+7. MongoDB provides high availability through its built-in replication feature, which automatically synchronizes data across multiple nodes in a cluster.
+8. It also provides horizontal scalability through its sharding feature, which allows for data to be distributed across multiple nodes in a cluster.
+9. MongoDB has a rich ecosystem of tools and libraries, including drivers for many programming languages, as well as management and monitoring tools.
+10. Finally, MongoDB has a strong community of users and contributors, making it a popular choice for modern web applications.
+
+Web Sockets
+1. Web Sockets is a protocol that provides a bi-directional, full-duplex communication channel over a single TCP connection between a client and a server.
+2. The primary advantage of Web Sockets is that it allows real-time communication between the client and server, which means that data can be sent and received instantly without the need for repeated HTTP requests.
+3. Web Sockets are initiated with a handshake between the client and server, after which they can exchange data in real-time using the same connection.
+4. Web Sockets are designed to work over the same ports as HTTP and HTTPS (80 and 443 respectively), which makes them compatible with existing web infrastructure.
+5. Web Sockets use the WebSocket API, which is available in modern web browsers and can also be used on the server-side using various programming languages.
+6. Web Sockets can be used to implement a wide range of real-time applications such as chat applications, multiplayer games, and stock tickers.
+7. The WebSocket protocol defines a framing mechanism that allows data to be sent in messages, which can be binary or text.
+8. Web Sockets support a variety of different message types including text messages, binary messages, and ping/pong messages for testing connectivity.
+9. Web Sockets also support sub-protocols, which are additional protocols that can be layered on top of the WebSocket protocol to provide additional functionality.
+10. Web Sockets can be used to improve the performance and user experience of web applications that require real-time communication, and are widely used in modern web development.
+
+Midterm Review Notes
 1. @import url("google fonts link here"); - you can use this CSS to load fonts from Google
 2. CSS property padding - puts space around the content of selected elements
 3. console.log(f(n)) can call a function and output it
