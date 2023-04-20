@@ -176,3 +176,35 @@ Midterm Review Notes
 18. Console comman to make a script executable - chmod +x deploy.sh
 19. DNS subdomain example - c260.cs.byu.edu
 20. To point to another DNS record, use this DNS record type - CNAME
+
+Final Review Notes
+1. Port 80 is reserved for - HTTP
+2. HTTP status codes in the 300 range are for - content redirects or caching
+  300 Multiple Choices: The requested resource has multiple representations, each with its own URL. The client can choose which one to follow.
+  301 Moved Permanently: The requested resource has been permanently moved to a new location. The client should update its bookmarks or links to use the new URL.
+  302 Found: The requested resource has been temporarily moved to a new location. The client should continue to use the original URL for future requests.
+  303 See Other: The requested resource is located at a different URL, and the client should retrieve it using a GET request on that URL.
+  304 Not Modified: The requested resource has not been modified since the last time it was requested by the client. The server returns this code to save bandwidth and   improve performance.
+  307 Temporary Redirect: The requested resource has been temporarily moved to a new location, and the client should continue to use the original URL for future         requests.
+  308 Permanent Redirect: The requested resource has been permanently moved to a new location, and the client should update its bookmarks or links to use the new URL.
+3. HTTP status codes in the 400 range are for - client side errors
+  400 Bad Request: The server was unable to understand the request sent by the client due to invalid syntax or formatting.
+  401 Unauthorized: The client failed to provide valid authentication credentials for a resource that requires authentication.
+  403 Forbidden: The server refuses to fulfill the request from the client even though authentication credentials were provided. This could be due to the client not     having proper authorization to access the resource.
+  404 Not Found: The server was unable to find the requested resource. This could be due to the resource being moved or deleted, or the URL being incorrect.
+  405 Method Not Allowed: The server does not support the HTTP method used in the request, such as GET, POST, PUT, DELETE, etc.
+  406 Not Acceptable: The server cannot produce a response that meets the client's requirements for content type, language, or encoding.
+  408 Request Timeout: The server timed out while waiting for the client to send a complete request.
+  409 Conflict: The server was unable to complete the request because it conflicts with another request or resource.
+  410 Gone: The requested resource is no longer available on the server and there is no forwarding address.
+  413 Payload Too Large: The server rejected the request because the payload (such as a file or message) was too large.
+  415 Unsupported Media Type: The server cannot handle the media type of the request's payload.
+4. Standard HTTP headers - content-type, Host, Cookie
+5. Not a standard HTTP header- language
+6. Cookies allow - a server to store data on the client
+7. Hasing stored passwords is important because - it improves security by making the password unreadable
+8. What value does WebSocket add to HTTP - it is peer to peer instead of client to server
+9. Purposes of JSX - to inject your HTML into your JavaScript, to componentize your HTML, to allow for composability of your HTML
+10. Command "NPM install ws" - locks the version of the websocket package for your application, adds the websocket source code to the node_modules directory, adds a dependency to your package.json file
+11. You can use fetch in front-end and back-end code - true
+12. Linux daemon - executes independent of a user, starts when the computer is rebooted, PM2 is an example of a daemon
