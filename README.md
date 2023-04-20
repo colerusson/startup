@@ -39,6 +39,15 @@ JSX
 9. In JSX, you can use CSS classes and styles to customize the appearance of your UI components. You can use the className attribute to add classes and the style attribute to add inline styles.
 10. JSX has some restrictions compared to HTML, such as using camelCase for attribute names and using the className attribute instead of the class attribute. It also does not support certain HTML elements like <img> or <input>, which have special properties in React.
 
+Daemons
+1. A daemon is a background process that runs continuously on a system, usually performing tasks that don't require user interaction.
+2. Daemons are commonly used for tasks such as server maintenance, monitoring, logging, and backup.
+3. Daemons are usually started at system boot time and run as system services, meaning that they are owned and controlled by the operating system itself, rather than a user.
+4. Daemons typically run as a separate process from the user's shell, and are often detached from the terminal or console, meaning they can run even when no user is logged in.
+5. Daemons are commonly managed using specialized tools, such as systemd, launchd, or upstart, which provide a way to start, stop, and monitor daemons, as well as handle logging and error reporting.
+6. Daemons are often designed to run in the background with minimal resource usage, and can be optimized for performance and reliability using techniques such as process forking, process monitoring, and signal handling.
+7. 
+
 Converting to React
 1. Understand the differences between web development and React: React is a JavaScript library for building user interfaces while web development involves a variety of technologies including HTML, CSS, and JavaScript. You'll need to understand how React works and its basic concepts such as components, state, and props.
 2. Break down the web file into components: One of the key features of React is the ability to break down the user interface into smaller, reusable components. You should analyze the web file and identify the different parts of the interface that can be turned into components.
@@ -46,6 +55,8 @@ Converting to React
 4. Manage state and props: React components have a concept of state and props. State refers to data that changes over time within a component while props are properties that are passed down to a component from its parent. You'll need to manage state and props within your React components to ensure they function as expected.
 5. Use React libraries and tools: There are many React libraries and tools available that can help you convert your web files to React more easily. For example, you can use React Router to handle routing within your application, or use a CSS-in-JS library like Styled Components to manage your CSS styles.
 6. Test your components: Finally, it's important to test your React components thoroughly to ensure they work as expected. You can use tools like Jest and Enzyme to create automated tests for your React components.
+7. Some examples of daemons in Unix-based systems include cron, syslogd, sshd, and httpd, while in Windows systems they are known as services.
+8. Daemons can be vulnerable to security threats, such as privilege escalation attacks, denial of service attacks, and data theft, so it is important to ensure that they are properly secured and monitored.
 
 Express
 1. Express is a popular, open-source web application framework for Node.js that allows you to easily build web applications and APIs.
