@@ -1,11 +1,8 @@
 # startup
-start up application
+Startup application
 This is the first addition to my README from VS Code
 This is the next addition to my REAME from GitHub
 This is going to be a merge conflictThis is another addition to the README from GitHub
-
-1. Here is the start of some of my notes 
-2. I thought it was interesting and cool how you can merge git conflicts or just accept one of them so quickly and easily
 
 Startup Elevator Pitch
 Do you ever feel like your friends listen to really good music that you haven't heard before? Do you ever feel like you found a new, unique song after perusing spotify or apple music in the middle of the night, and now you want to share it with everyone? MusiConnect is an anti-social, social media platform that allows you to share one song per day so that all of your friends can see and listen to it, leading to quick and easy music sharing. All you do is share one song you liked from the day, and you can quickly scroll through and hear bits from other songs that your friends share.
@@ -29,6 +26,18 @@ Key Features:
 
 
 Class Notes
+
+JSX
+1. JSX stands for JavaScript XML, which is an extension to the JavaScript language syntax used for describing user interfaces. It allows you to write HTML-like code in your JavaScript files.
+2. JSX elements look similar to HTML elements, but they are actually JavaScript objects that represent the UI components.
+3. You can use JSX with any framework or library that supports it, such as React, Preact, or Inferno.
+4. To use JSX in your code, you need to include a transpiler like Babel that can convert the JSX syntax into regular JavaScript code that the browser can understand.
+5. In JSX, you can embed JavaScript expressions using curly braces {}. This allows you to dynamically generate content based on user input, state, or props.
+6. JSX supports conditional rendering using the ternary operator or the && operator, as well as looping over arrays using the map() function.
+7. JSX allows you to define custom components that can be reused throughout your application. These components can be simple functions or classes that return JSX elements.
+8. JSX supports event handlers, such as onClick, onMouseOver, and onChange. These handlers can be used to trigger actions based on user input.
+9. In JSX, you can use CSS classes and styles to customize the appearance of your UI components. You can use the className attribute to add classes and the style attribute to add inline styles.
+10. JSX has some restrictions compared to HTML, such as using camelCase for attribute names and using the className attribute instead of the class attribute. It also does not support certain HTML elements like <img> or <input>, which have special properties in React.
 
 Converting to React
 1. Understand the differences between web development and React: React is a JavaScript library for building user interfaces while web development involves a variety of technologies including HTML, CSS, and JavaScript. You'll need to understand how React works and its basic concepts such as components, state, and props.
